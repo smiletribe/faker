@@ -3,6 +3,116 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
+   
+  "health" : {
+    "sleep" : {
+      "1478571880" : {
+        "endDate" : 1478595208,
+        "startDate" : 1478571880,
+        "state" : "InBed"
+      },
+      "1478595304" : {
+        "endDate" : 1478596616,
+        "startDate" : 1478595304,
+        "state" : "InBed"
+      },
+      "1522551697" : {
+        "endDate" : 1522570853,
+        "startDate" : 1522551697,
+        "state" : "Asleep"
+      },
+      "1522639440" : {
+        "endDate" : 1522658450,
+        "startDate" : 1522639440,
+        "state" : "Asleep"
+      }
+    }
+  },     
+
+  "responses" : [
+    {
+      "id": 1,
+      "description" : "HOW PRODUCTIVE ARE YOU TODAY?",
+      "type" : "growing",
+      "data" : {
+        "1526541163" : {
+          "date" : 1.526541163942909E9,
+          "reply" : "1.0"
+        },
+        "1526541281" : {
+          "date" : 1.526541281926579E9,
+          "reply" : "9.20726"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "description" : "HOW IS YOUR ENERGY?",
+      "type" : "polarity",          
+      "data" : {
+        "1526541278" : {
+          "date" : 1.5265412788988662E9,
+          "reply" : "-5.0"
+        },
+        "1526575872" : {
+          "date" : 1.526575872258791E9,
+          "reply" : "3.92552"
+        }
+      }
+    },
+    {
+      "id": 3,
+      "description" : "HOW DO YOU FEEL?",
+      "type" : "selection",
+      "options" : {
+        "0508e46b-149a-454b-b1f1-abf237a5da97" : {
+          "description" : "BORING"
+        },
+        "3c3933d0-22d9-4590-b25d-4dfa5a636b9a" : {
+          "description" : "HAPPY"
+        },
+        "efeadb88-c33e-4443-b0bc-85cb458a5cd3" : {
+          "description" : "ANGRY"
+        },
+        "f2c1a6bb-3c59-44b0-96d1-bd440ab55afc" : {
+          "description" : "SAD"
+        }
+      },
+      "data" : {
+        "1526541258" : {
+          "date" : 1.5265412580788732E9,
+          "reply" : "efeadb88-c33e-4443-b0bc-85cb458a5cd3"
+        },
+        "1526541292" : {
+          "date" : 1.526541292698623E9,
+          "reply" : "efeadb88-c33e-4443-b0bc-85cb458a5cd3"
+        },
+        "1526541641" : {
+          "date" : 1.526541641813678E9,
+          "reply" : "3c3933d0-22d9-4590-b25d-4dfa5a636b9a"
+        },
+        "1528414782" : {
+          "date" : 1.52841478298118E9,
+          "reply" : "3c3933d0-22d9-4590-b25d-4dfa5a636b9a"
+        }
+      }
+    },
+    {
+      "id": 4,
+      "description" : "HOW IS YOUR MOOD?",
+      "type" : "polarity",
+      "data" : {
+        "1526541277" : {
+          "date" : 1.526541277873182E9,
+          "reply" : "5.0"
+        },
+        "1526575852" : {
+          "date" : 1.526575852585907E9,
+          "reply" : "-4.19414"
+        }
+      }
+    }
+  ],
   "user": [
     {
       "id": 1,
@@ -38,7 +148,6 @@
         }
       }
     }
-    
   ],
   "categories" : [
     {
