@@ -8,7 +8,7 @@
   },
   "categories" : [
     {
-      "id": "50C0E868-4F82-4984-8756-F6549EFBD1F6",
+      "id": 1,
       "description" : "FEEL",
       "questions" : {
         "8368526C-FEF2-4C7A-8337-F1EEE3196980" : {
@@ -22,7 +22,7 @@
       }
     },
     {
-      "id": "7E7D6FBA-6D3C-406D-B7A4-7FE16E975D27",
+      "id": 2,
       "description" : "PERCEPTION",
       "questions" : {
         "382EBA10-14F4-4EEE-82AE-313EAE097CA4" : {
@@ -50,7 +50,7 @@
       }
     },
     {
-      "id": "919407a6-a2a8-440c-b21c-a43289864b89",
+      "id": 3,
       "description" : "VOICE NOTES",
       "questions" : {
         "5beb197f-1f66-4cd2-8095-56569fa755e5" : {
