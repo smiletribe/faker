@@ -1,5 +1,5 @@
 {
-  "posts": [
+  "notes": [
     { "id": 1, "title": "Post 1" },
     { "id": 2, "title": "Post 2" },
     { "id": 3, "title": "Post 3" }
@@ -10,5 +10,60 @@
   ],
   "profile": {
     "name": "typicode"
+  },
+  "categories" : {
+    "50C0E868-4F82-4984-8756-F6549EFBD1F6" : {
+      "description" : "FEEL",
+      "questions" : {
+        "8368526C-FEF2-4C7A-8337-F1EEE3196980" : {
+          "description" : "HOW IS YOUR ENERGY?",
+          "type" : "polarity"
+        },
+        "C232BF2C-C227-4897-B0D3-392C3095C723" : {
+          "description" : "HOW IS YOUR MOOD?",
+          "type" : "polarity"
+        }
+      }
+    },
+    "7E7D6FBA-6D3C-406D-B7A4-7FE16E975D27" : {
+      "description" : "PERCEPTION",
+      "questions" : {
+        "382EBA10-14F4-4EEE-82AE-313EAE097CA4" : {
+          "description" : "HOW PRODUCTIVE ARE YOU TODAY?",
+          "type" : "growing"
+        },
+        "9056C28B-6922-4B31-9D1A-0979D3D6D1C1" : {
+          "description" : "HOW DO YOU FEEL?",
+          "options" : {
+            "0508e46b-149a-454b-b1f1-abf237a5da97" : {
+              "description" : "BORING"
+            },
+            "3c3933d0-22d9-4590-b25d-4dfa5a636b9a" : {
+              "description" : "HAPPY"
+            },
+            "efeadb88-c33e-4443-b0bc-85cb458a5cd3" : {
+              "description" : "ANGRY"
+            },
+            "f2c1a6bb-3c59-44b0-96d1-bd440ab55afc" : {
+              "description" : "SAD"
+            }
+          },
+          "type" : "selection"
+        }
+      }
+    },
+    "919407a6-a2a8-440c-b21c-a43289864b89" : {
+      "description" : "VOICE NOTES",
+      "questions" : {
+        "5beb197f-1f66-4cd2-8095-56569fa755e5" : {
+          "description" : "HOW PRODUCTIVE ARE YOU TODAY",
+          "type" : "voice"
+        },
+        "926c97a8-f789-47d2-b352-4e020606c781" : {
+          "description" : "HOW DO YOU FEEL?",
+          "type" : "voice"
+        }
+      }
+    }
   }
 }
