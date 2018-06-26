@@ -3,9 +3,43 @@
     { "id": 1, "body": "some comment", "postId": 1 },
     { "id": 2, "body": "some comment", "postId": 1 }
   ],
-  "profile": {
-    "name": "typicode"
-  },
+  "user": [
+    {
+      "id": 1,
+      "profile" : {
+        "account" : {
+          "user_name" : "tech",
+          "email" : "tech@mvplab.co.uk",
+          "facebook_ID" : "token facebook"
+        },
+        "user" : {
+          "first_name" : "german",
+          "last_name" : "gomez",
+          "age" : 32,
+          "gender" : "male",
+          "pic_url" :  "https://Domain_SmileTribe/resources/user/<ID_USER>/pic/uuid.jpg"
+        }
+      }
+    },
+    {
+      "id": 2,
+      "profile" : {
+        "account" : {
+          "user_name" : "smile",
+          "email" : "user@smiletri.be",
+          "facebook_ID" : "token facebook"
+        },
+        "user" : {
+          "first_name" : "jo",
+          "last_name" : "canet",
+          "age" : 39,
+          "gender" : "male",
+          "pic_url" :  "https://Domain_SmileTribe/resources/user/<ID_USER>/pic/uuid.jpg"
+        }
+      }
+    }
+    
+  ],
   "categories" : [
     {
       "id": 1,
